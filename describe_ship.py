@@ -1,3 +1,4 @@
+import random
 import yaml
 import argparse
 
@@ -18,6 +19,9 @@ def load_config(config):
 def load_ship_database(database):
     file = open(database, 'r')
     data = yaml.load(file)
+
+def generate_ship_database(database_file):
+    file = open(database_file, 'w')
 
 def construct_ship(ship):
     file = open(ship, 'w')

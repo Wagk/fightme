@@ -1,4 +1,4 @@
-# fightme
+# Freefall
 something something fleet customizer and total warfare simulator
 
 Sometime in the future this is going to get embedded within sandcastle
@@ -23,20 +23,22 @@ We want:
 - Able to handle simulation/non-simulation combat resolution mechanics
 - Shift towards procedural generation of names
 
-Let's try writing some yaml
+Example entry (tentative)
 ```
 -
     name: Brisigox Turbine Reactor
     type: Reactor
     maker: Martin Imperial
     model: XX4A-I
+    variant: 2
     specs:
         acceleration: 100
         thrust: 100
         weight: 24t
     condition: terrible
+    compatitability: type A universal model port
     requires: 
-        - Haylor fuel
+        - Composition VII fuel
     notes: |
         Shit's expensive, and not that good
 ```
