@@ -25,8 +25,7 @@ We want:
 
 Example entry (tentative)
 ```
--
-    name: Brisigox Turbine Reactor
+-   name: Brisigox Turbine Reactor
     type: Reactor
     maker: Martin Imperial
     model: XX4A-I
